@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'filters';
+  today = new Date(2022, 6, 31);
+  price = 19.99;
 }
